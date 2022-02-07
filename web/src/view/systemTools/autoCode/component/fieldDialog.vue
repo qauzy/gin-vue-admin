@@ -116,7 +116,11 @@ const typeSearchOptions = ref([
   {
     label: 'LIKE',
     value: 'LIKE'
-  }
+  },
+  {
+    label: 'RANGE',
+    value: 'RANGE'
+  },
 ])
 const typeOptions = ref([
   {

@@ -6,6 +6,6 @@ import (
 )
 
 type {{.StructName}}Search struct{
-    autocode.{{.StructName}}
+    autocode.{{.StructName}}Dto
     request.PageInfo
 }
