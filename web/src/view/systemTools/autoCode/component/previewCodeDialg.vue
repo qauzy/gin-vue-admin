@@ -44,7 +44,7 @@ onMounted(() => {
     if (activeName.value === '') {
       activeName.value = key
     }
-    document.getElementById(key).innerHTML = marked(props.previewCode[key])
+    document.getElementById(key).innerHTML = marked.marked(props.previewCode[key])
   }
 })
 
