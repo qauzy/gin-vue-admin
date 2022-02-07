@@ -132,6 +132,10 @@ const typeOptions = ref([
     value: 'int'
   },
   {
+    label: '大整型',
+    value: 'int64'
+  },
+  {
     label: '布尔值',
     value: 'bool'
   },

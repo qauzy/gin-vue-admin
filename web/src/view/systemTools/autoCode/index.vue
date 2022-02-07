@@ -422,7 +422,7 @@ const getColumnFunc = async() => {
   }
 }
 const setFdMap = async() => {
-  const fdTypes = ['string', 'int', 'bool', 'float64', 'time.Time']
+  const fdTypes = ['string', 'int', 'bool', 'float64', 'time.Time','int64']
   fdTypes.forEach(async fdtype => {
     const res = await getDict(fdtype)
     res && res.forEach(item => {
